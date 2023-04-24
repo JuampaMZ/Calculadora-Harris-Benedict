@@ -42,7 +42,7 @@ form.addEventListener('submit', function(e) {
     })
 });
 
-let ayuda = document.querySelector('.ayuda');
+/* let ayuda = document.querySelector('.ayuda');
 let fi = document.querySelector(".FI");
 let overflow_body = document.getElementsByTagName("body")
 
@@ -57,4 +57,4 @@ function show_constancy(event) {
     fi.style.top = top + 'px'
     overflow_body[0].classList.toggle("overflow-hiden")
 }
-
+ */
