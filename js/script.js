@@ -42,3 +42,19 @@ form.addEventListener('submit', function(e) {
     })
 });
 
+let ayuda = document.querySelector('.ayuda');
+let fi = document.querySelector(".FI");
+let overflow_body = document.getElementsByTagName("body")
+
+ayuda.addEventListener("click", show_constancy);
+fi.addEventListener("click", show_constancy);
+
+function show_constancy(event) {
+    console.log('entro');
+    fi.classList.toggle("d-none")
+    console.log(event)
+    let top = (event.pageY - event.y)
+    fi.style.top = top + 'px'
+    overflow_body[0].classList.toggle("overflow-hiden")
+}
+

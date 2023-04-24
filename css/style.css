@@ -73,6 +73,46 @@ form button[type="submit"] {
     font-size: 11px !important;
 }
 
+.label-injury {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.FI{
+    position: absolute;
+    width: 100vw;
+    height: 120vh;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.608);
+}
+
+.FI img{
+    margin-top: 20vh;
+    width: 50vw;
+    min-width: 350px;
+}
+
+.overflow-hiden {
+    overflow: hidden;
+}
+.d-none{
+    display: none;
+}
+
+.ayuda {
+    width: 22px;
+    height: auto;
+    cursor: pointer;
+}
+
+
+
 .verformula {
 	display: flex;
     justify-content: center;
